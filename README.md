@@ -15,4 +15,5 @@ bikeshare.py
 
 ### Credits
 Pandas Documentation: https://devdocs.io/pandas~0.25/
+Pandas API reference: https://pandas.pydata.org/pandas-docs/stable/reference/index.html
 
