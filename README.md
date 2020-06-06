@@ -1,15 +1,18 @@
 ### Date created
-Include the date you created this project and README file.
+06Jun20
 
 ### Project Title
-Replace the Project Title
+Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+Create an interactive python program where the user can filter results based on city, month and day of the week.  The program takes in bikeshare data in csv format from 3 large U.S. cities (Washington, Chicago, New York City), the program reads the csv data into pandas dataframes and outputs bikeshare statistics based on user selected filters. 
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
+bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Pandas Documentation: https://devdocs.io/pandas~0.25/
 
