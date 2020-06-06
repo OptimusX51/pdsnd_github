@@ -161,7 +161,8 @@ def station_stats(df):
     
     popular_endpoints = df['Endpoint Stations'].mode()[0]
     print('The most popular station endpoints are {}.\n'.format(popular_endpoints))
-    time.sleep(.5)
+
+    input('Press any key to continue with more statistics!')
     
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
