@@ -217,9 +217,9 @@ def user_stats(df):
         print('Most common user birth year:    {}\n'.format(int(popular_birthyear)))
     else:
         print("\nNo 'Birth Year' data in this set\n")
-        
-    time.sleep(.5)
 
+    input('Press any key to continue with more statistics!')
+        
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
