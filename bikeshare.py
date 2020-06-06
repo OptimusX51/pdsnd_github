@@ -138,7 +138,8 @@ def time_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-    time.sleep(.5)
+
+    input('Press any key to continue with more statistics!')
 
 
 def station_stats(df):
